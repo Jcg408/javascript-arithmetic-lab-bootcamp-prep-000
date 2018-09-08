@@ -17,9 +17,10 @@ function dec(n) {
   return n -=1;
 }
 function makeInt (n) {
-  parseInt(n);
   if(n === isNaN) {
     return true;
-   
+  }
+  if (n % 2 == 0) {
+    return parseInt(n);
   }
 }
