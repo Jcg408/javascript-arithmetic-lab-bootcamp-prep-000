@@ -21,6 +21,6 @@ function makeInt (n) {
     return true;
   }
   if (n % 2 === 0) {
-    return parseInt(n, 10);
+    return parseInt(n);
   }
 }
