@@ -20,6 +20,6 @@ function makeInt (n) {
   parseInt(n);
   if(n === isNaN) {
     return true;
-    if (n !==)
+   
   }
 }
