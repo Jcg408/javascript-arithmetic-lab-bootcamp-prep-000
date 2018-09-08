@@ -20,7 +20,7 @@ function makeInt (n) {
   if(n === isNaN) {
     return true;
   }
-  if (n % 2 == 0) {
+  if (n % 2 === 0) {
     return parseInt(n, 10);
   }
 }
